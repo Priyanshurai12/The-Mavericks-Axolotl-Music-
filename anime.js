@@ -1,7 +1,7 @@
 console.log("Welcome to Axolotyl");
 
 let songIndex = 0;
-let audioElement = new Audio('songs/Weathering With You & your name OST Theme Songs Full Original Version (128 kbps).mp3');
+let audioElement = new Audio('songs/Suzume-No-Tojimari-Title-Track(PaglaSongs).mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
