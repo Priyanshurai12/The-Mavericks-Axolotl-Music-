@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: #090979;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size:80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900 ;
+    justify-content: center;
+    padding-left: 8%;
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    justify-content: center;
+    padding-left: 35%;
+}
+
+.playlist{
+    justify-content:center;
+    margin: 2px;
+    padding-left: 7%;
+    padding-top: 12%;
+
+}
+
+
+.container{
+    min-height: 90vh;
+    color: black;
+   margin: 50px;
+   width: 90%;
+   border-radius: 8px;
+   padding: 25px;
+   justify-content: center;
+   align-content: center;
+   background-image: url('images/blue-purple-waves-stock-wallpaper-thumb\ -\ Copy.jpg');
+}
